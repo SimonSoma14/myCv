@@ -1,18 +1,21 @@
 body{
     margin: 0%;
 }
+
 header {
     height: 50px;
 }
+
 .avatar {
     display:inline-block;
     vertical-align: middle;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 5px solid grey;  
+    border: 5px solid goldenrod;  
     margin: 10px;
 }
+
 header ul {
     width:100%;
     position: fixed;
@@ -35,9 +38,18 @@ header li a {
     padding: 16px;
     text-decoration: none;
 }
+
+footer li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
   
-header li a:hover {
-    background-color: #111111;
+header li a:hover, footer li a:hover {
+    background-color: goldenrod;
+    cursor: pointer;
 }
 
 .info {
@@ -71,3 +83,28 @@ div #skills {
     height:max-content;
 }
     
+#contacts {
+    background-color: #333333;
+    color: white;
+}
+
+#contacts h1 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.list{
+    display: inline-block;
+    margin: 0% 18%;
+}
+
+.list h3 {
+    padding-left: 40px;
+}
+
+.creator p {
+    border-top: 5px solid goldenrod;
+    text-align: center;
+    margin: 0px 30px;
+    padding: 10px;
+}
