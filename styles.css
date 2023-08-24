@@ -1,10 +1,40 @@
+body{
+    margin: 0%;
+}
 header {
-    height: 100px;
+    height: 50px;
 }
 .avatar {
+    float: left;
     vertical-align: middle;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     border: 5px solid aqua;  
-  }
+}
+ul {
+    width:100%;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+  
+li {
+    width: 25%;
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111111;
+}
